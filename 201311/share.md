@@ -1,18 +1,41 @@
 title: 11月分享
 speaker: zhizhonglin
-url: https://github.com/lynzz/myshare201311
+url: https://github.com/lynzz/myshare/201311
 transition: cards
 files: /js/demo.js,/css/nodeppt.css
 
 [slide]
 
-# 封面样式
-## h1是作为封面用的，内部的都用h2
+# 目录
+
+- webstorm7介绍
+- requirejs模块化运用
+- grunt自定义模板
 
 [slide]
 
-# 封面样式2 {:&.flexbox.vleft}
-## 左对齐
+#WebStorm — The smartest JavaScript IDE
+
+这个做前端的童鞋们应该都比较熟悉了吧，jetBrain出品的IDE神器，做Web开发、Node.js开发都可以，集成很多前端开发常用的功能
+
+[slide] 
+##webstorm7新增了如下几个功能（较会用到的功能）
+
+* Karma,一个很强大的测试框架(Test Runner),可能有些童鞋不认识，不过相信有不少人用过JSTestDriver（webstorm5有集成），是的，Karma也是Google出品，其前身叫做TestAcular,是Google在开发AngularJS的时候，感觉到jsTestDriver有一些不足，从而重新开发了一套测试框架，官网：[http://karma-runner.github.io/0.10/index.html](http://karma-runner.github.io/0.10/index.html "http://karma-runner.github.io/0.10/index.html")
+* 对Mustache和Handlebars模板文件的支持
+* 支持less/sass/scss
+* 新增AMD文件模板
+* 支持package.json文件
+
+更多新增见：[http://blog.jetbrains.com/webstorm/2013/05/webstorm-7-eap/](http://blog.jetbrains.com/webstorm/2013/05/webstorm-7-eap/)
+
+[slide]
+
+不对webstorm的使用做具体介绍，下面给出一些相关的资料地址：
+
+
+- 官网：[http://www.jetbrains.com/webstorm](http://www.jetbrains.com/webstorm)
+- 淘宝明河同学的webstorm最佳实践(在线电子书)：[http://www.book.36ria.com/webstorm/index.html](http://www.book.36ria.com/webstorm/index.html)
 
 [slide style="background-image:url('/img/bg1.png')"]
 
